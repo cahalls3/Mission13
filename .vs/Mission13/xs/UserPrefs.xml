@@ -1,12 +1,7 @@
 ﻿<Properties StartupConfiguration="{FAEC9E84-F64B-49D0-8D63-61F31EA2AD59}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission13/Models/BowlingLeague.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission13/appsettings.json">
     <Files>
-      <File FileName="Mission13/Controllers/HomeController.cs" Line="25" Column="1" />
-      <File FileName="Mission13/Startup.cs" Line="20" Column="1" />
-      <File FileName="Mission13/Models/BowlingLeague.cs" Line="1" Column="1" />
-      <File FileName="Mission13/Models/RecipesDbContext.cs" Line="12" Column="1" />
-      <File FileName="Mission13/Models/EFBowlingLeagueRepository.cs" Line="1" Column="1" />
-      <File FileName="Mission13/Models/IBowlingLeagueRepository.cs" Line="1" Column="1" />
+      <File FileName="Mission13/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,13 +9,12 @@
           <Node name="Mission13" expanded="True">
             <Node name="Mission13" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="BowlingLeague.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>

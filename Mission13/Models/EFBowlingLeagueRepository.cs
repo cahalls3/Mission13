@@ -14,6 +14,6 @@ namespace Mission13.Models
             _context = temp;
         }
 
-        public IQueryable<Recipe> Recipes => _context.Recipes;
+        public IQueryable<Bowler> Bowlers => _context.Bowlers;
     }
 }

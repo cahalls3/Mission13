@@ -6,6 +6,6 @@ namespace Mission13.Models
 {
     public interface IBowlingLeagueRepository
     {
-        IQueryable<Recipe> Recipes { get; }
+        IQueryable<Bowler> Bowlers { get; }
     }
 }
