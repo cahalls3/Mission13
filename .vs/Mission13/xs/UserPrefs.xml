@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{FAEC9E84-F64B-49D0-8D63-61F31EA2AD59}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission13/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission13/Views/Home/NewBowler.cshtml">
     <Files>
-      <File FileName="Mission13/appsettings.json" Line="1" Column="1" />
+      <File FileName="Mission13/Controllers/HomeController.cs" Line="71" Column="44" />
+      <File FileName="Mission13/Views/Shared/_Layout.cshtml" Line="32" Column="28" />
+      <File FileName="Mission13/Models/Bowler.cs" Line="20" Column="6" />
+      <File FileName="Mission13/Models/BowlingLeagueDbContext.cs" Line="1" Column="1" />
+      <File FileName="Mission13/Views/Home/NewBowler.cshtml" Line="55" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,10 +15,11 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="NewBowler.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
@@ -22,7 +27,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Mission13 FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Mission13 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
