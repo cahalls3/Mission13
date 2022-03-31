@@ -36,9 +36,36 @@ namespace Mission13.Controllers
             return View(bowlers);
         }
 
+        [HttpGet]
+        public IActionResult NewBowler()
+        {
+            ViewBag.Teams = _repo.Teams.ToList();
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult NewBowler(Bowler b)
+        {
+            if (ModelState.IsValid)
+            {
+                _repo.Add(b);
+
+                return View("Confirmation", b);
+            }
+            else // if invalid
+            {
+                ViewBag.Teams = _repo.Teams.ToList();
+
+                return View();
+            }
+
+        }
+
+        [HttpGet]
         public IActionResult Edit(int bowlerid)
         {
-            ViewBag.Categories = _repo.Categories.ToList();
+            ViewBag.Teams = _repo.Teams.ToList();
 
             var bowler = _repo.Bowlers.Single(x => x.BowlerID == bowlerid);
 
@@ -49,7 +76,6 @@ namespace Mission13.Controllers
         public IActionResult Edit(Bowler b)
         {
             _repo.Update(b);
-            _repo.SaveChanges();
 
             return RedirectToAction("BowlerList");
         }
@@ -65,8 +91,7 @@ namespace Mission13.Controllers
         [HttpPost]
         public IActionResult Delete(Bowler b)
         {
-            _repo.Bowlers.Remove(b);
-            _repo.SaveChanges();
+            _repo.Delete(b);
 
             return RedirectToAction("BowlerList");
         }

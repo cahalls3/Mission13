@@ -53,3 +53,6 @@
 /Users/carsonhalls/Documents/GitHub/Mission13/Mission13/obj/Debug/netcoreapp3.1/Mission13.pdb
 /Users/carsonhalls/Documents/GitHub/Mission13/Mission13/obj/Debug/netcoreapp3.1/Mission13.genruntimeconfig.cache
 /Users/carsonhalls/Documents/GitHub/Mission13/Mission13/obj/Debug/netcoreapp3.1/Razor/Views/Home/BowlerList.cshtml.g.cs
+/Users/carsonhalls/Documents/GitHub/Mission13/Mission13/obj/Debug/netcoreapp3.1/Razor/Views/Home/NewBowler.cshtml.g.cs
+/Users/carsonhalls/Documents/GitHub/Mission13/Mission13/obj/Debug/netcoreapp3.1/Razor/Views/Home/Confirmation.cshtml.g.cs
+/Users/carsonhalls/Documents/GitHub/Mission13/Mission13/obj/Debug/netcoreapp3.1/Razor/Views/Home/Delete.cshtml.g.cs
